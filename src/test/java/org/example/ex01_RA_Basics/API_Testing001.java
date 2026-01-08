@@ -26,7 +26,7 @@ public class API_Testing001 {
                 .when()
                 .get()
                 .then()
-                .log().all().statusCode(201);
+                .log().all().statusCode(200);
 
 
     }
